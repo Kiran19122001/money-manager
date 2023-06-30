@@ -1,0 +1,125 @@
+.maian-container {
+    height: 100%;
+    width: 90%;
+    padding-left: 40px;
+}
+
+.dashboard-container {
+    background: url(https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png);
+    background-size: cover;
+    height: 156px;
+    padding-top: 15px;
+    padding-left: 100px;
+    margin-left: 40px;
+}
+
+.mnmg-text {
+    color: #0b69ff;
+    font-weight: 700;
+}
+
+.money-type {
+    margin-top: 20px;
+    width: 1234px;
+    margin-left: 70px;
+}
+
+.moneyList {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.transaction-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.input-container {
+    border: 1px solid #334155;
+    padding: 30px;
+    border-radius: 5px;
+    width: 400px;
+    height: 400px;
+    margin-left: 37px;
+}
+
+.details-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-head {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1e293b;
+}
+
+.inputs {
+    height: 40px;
+    width: 250px;
+    border: 1px solid #334155;
+    outline: none;
+    border-radius: 5px;
+    padding: 3px 2px 3px 10px;
+    margin-bottom: 10px;
+}
+
+label {
+    color: #334155;
+    font-weight: 480;
+    margin-bottom: 8px;
+}
+
+.options {
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #334155;
+    margin-bottom: 10px;
+    padding: 1px 1px 1px 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.add_button {
+    height: 30px;
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+    background: #0b69ff;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.history-container {
+    width: 500px;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    padding: 5px 1px 5px 30px;
+    overflow-y: auto;
+}
+
+.history-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 403px;
+    border: 1px solid #334155;
+    padding: 5px 10px 5px 22px;
+}
+
+.history-inside {
+    margin-left: -38px;
+}
+
+/* 
+
+.transact-list {
+  width: 409px;
+  border: 1px solid #334155;
+  margin-top: 0px;
+  border-top: none;
+} */

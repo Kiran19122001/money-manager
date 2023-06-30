@@ -1,0 +1,21 @@
+.tr-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 403px;
+    margin-left: 0px;
+    border: 1px solid #334155;
+    padding-left: 27px;
+}
+
+.delete-icon {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.delete {
+    height: 20px;
+    width: 20px;
+}
